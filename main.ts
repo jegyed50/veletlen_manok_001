@@ -20,7 +20,7 @@ input.onButtonPressed(Button.B, function () {
     }
 })
 function indul () {
-    led.setBrightness(20)
+    led.setBrightness(10)
     szunet = 50
     basic.clearScreen()
     mano1 = game.createSprite(randint(0, 4), 0)
